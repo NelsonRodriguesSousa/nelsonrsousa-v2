@@ -12,6 +12,8 @@ import { CarrascalComponent } from './pages/projects/carrascal/carrascal.compone
 import { AutalantisComponent } from './pages/projects/autalantis/autalantis.component';
 import { HswComponent } from './pages/projects/hsw/hsw.component';
 import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central.component';
+import { WeddingsComponent } from './pages/projects/weddings/weddings.component';
+import { LaplandComponent } from './pages/lapland/lapland.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central
     CarrascalComponent,
     AutalantisComponent,
     HswComponent,
-    CafeCentralComponent
+    CafeCentralComponent,
+    WeddingsComponent,
+    LaplandComponent
   ],
   imports: [
     BrowserModule,

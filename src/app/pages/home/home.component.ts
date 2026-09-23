@@ -26,7 +26,7 @@ export class HomeComponent {
 
      {
       name: "Lapland",
-      link: "",
+      link: "lapland",
       img: "/assets/img/projects/lapland/thumb.jpg",
     },
 
@@ -35,11 +35,6 @@ export class HomeComponent {
       link: "refugio-carrascal",
       img: "/assets/img/projects/carrascal/thumb.jpg",
     },
-     {
-      name: "Autalantis",
-      link: "autalantis",
-      img: "/assets/img/projects/autalantis/thumb.jpg",
-     },
 
        {
       name: "Café central",
@@ -47,11 +42,17 @@ export class HomeComponent {
       img: "/assets/img/projects/cafe-central/thumb.jpg",
     },
 
+     {
+      name: "Autalantis",
+      link: "autalantis",
+      img: "/assets/img/projects/autalantis/thumb.jpg",
+     },
+
     {
-      name: "",
-      link: "",
-      img: "https://placehold.co/400x500?text=x",
-    },
+      name: "Weddings",
+      link: "weddings",
+      img: "/assets/img/projects/weddings/thumb.jpg",
+    }
   ]
 
 }

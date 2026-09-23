@@ -46,3 +46,8 @@ body {
       max-width: 100% !important;
     }
 }
+
+
+.ratio-5x4 {
+  aspect-ratio: 5 / 4;
+}

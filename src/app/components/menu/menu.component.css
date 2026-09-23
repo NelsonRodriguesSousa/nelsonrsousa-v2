@@ -8,3 +8,11 @@
   text-transform: lowercase;
   letter-spacing: -2px;
 }
+
+.social-icon {
+  padding-left: 30px;
+}
+
+.bi {
+   font-size: 17px;
+}

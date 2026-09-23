@@ -8,13 +8,17 @@ import { CarrascalComponent } from './pages/projects/carrascal/carrascal.compone
 import { AutalantisComponent } from './pages/projects/autalantis/autalantis.component';
 import { HswComponent } from './pages/projects/hsw/hsw.component';
 import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central.component';
+import { WeddingsComponent } from './pages/projects/weddings/weddings.component';
+import { LaplandComponent } from './pages/lapland/lapland.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'gravel-birds', component: GravelBirdsComponent },
   { path: 'soajo-outdoor-fest', component: SoajoOutdoorFestComponent },
+  { path: 'lapland', component: LaplandComponent },
   { path: 'heading-southwest', component: HswComponent },
   { path: 'cafe-central', component: CafeCentralComponent },
+  { path: 'weddings', component: WeddingsComponent },
   { path: 'refugio-carrascal', component: CarrascalComponent },
   { path: 'autalantis', component: AutalantisComponent },
   { path: 'about', component: AboutComponent },
