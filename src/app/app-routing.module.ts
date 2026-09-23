@@ -9,11 +9,13 @@ import { AutalantisComponent } from './pages/projects/autalantis/autalantis.comp
 import { HswComponent } from './pages/projects/hsw/hsw.component';
 import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central.component';
 import { WeddingsComponent } from './pages/projects/weddings/weddings.component';
-import { LaplandComponent } from './pages/lapland/lapland.component';
+import { LaplandComponent } from './pages/projects/lapland/lapland.component';
+import { AlaPlanaltoComponent } from './pages/projects/ala-planalto/ala-planalto.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'gravel-birds', component: GravelBirdsComponent },
+  { path: 'ala-planalto', component: AlaPlanaltoComponent },
   { path: 'soajo-outdoor-fest', component: SoajoOutdoorFestComponent },
   { path: 'lapland', component: LaplandComponent },
   { path: 'heading-southwest', component: HswComponent },
