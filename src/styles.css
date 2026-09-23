@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+ @font-face {
+    font-family: 'Dillan';
+    src: url('./assets/Dillan.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+  font-size: 13px;
+}
+
+.dillan {
+  font-family: 'Dillan';
+}
+
+
+.project-title {
+  letter-spacing: -1px;
+}
+
+.bts {
+  height: 330px;
+  object-fit: cover;
+  padding: 2px;
+}
+
+.bts-container {
+  margin-top: 100px;
+}
+
+
+.vertical-photos img {
+    height: 800px !important;
+}
+
+
+ @media only screen and (max-width: 600px) {
+
+    .vertical-photos img {
+      height: auto !important; /* Altura ajustada automaticamente para manter proporções */
+      max-width: 100% !important;
+    }
+}
