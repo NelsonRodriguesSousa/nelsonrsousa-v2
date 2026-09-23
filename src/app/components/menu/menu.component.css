@@ -1,0 +1,10 @@
+.nav-item {
+  font-size: 14px;
+}
+
+.logo {
+  font-family: 'Dillan';
+  font-size: 40px;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+}
