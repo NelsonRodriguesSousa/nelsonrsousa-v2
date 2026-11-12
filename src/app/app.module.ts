@@ -15,6 +15,7 @@ import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central
 import { WeddingsComponent } from './pages/projects/weddings/weddings.component';
 import { LaplandComponent } from './pages/projects/lapland/lapland.component';
 import { AlaPlanaltoComponent } from './pages/projects/ala-planalto/ala-planalto.component';
+import { GaleriaComponent } from './pages/galeria/galeria.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AlaPlanaltoComponent } from './pages/projects/ala-planalto/ala-planalto
     CafeCentralComponent,
     WeddingsComponent,
     LaplandComponent,
-    AlaPlanaltoComponent
+    AlaPlanaltoComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,

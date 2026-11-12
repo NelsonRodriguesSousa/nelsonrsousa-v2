@@ -11,6 +11,7 @@ import { CafeCentralComponent } from './pages/projects/cafe-central/cafe-central
 import { WeddingsComponent } from './pages/projects/weddings/weddings.component';
 import { LaplandComponent } from './pages/projects/lapland/lapland.component';
 import { AlaPlanaltoComponent } from './pages/projects/ala-planalto/ala-planalto.component';
+import { GaleriaComponent } from './pages/galeria/galeria.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'refugio-carrascal', component: CarrascalComponent },
   { path: 'autalantis', component: AutalantisComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'projeto-serra-teste', component: GaleriaComponent },
   { path:'',redirectTo:'/', pathMatch: 'full' }
 ]
 @NgModule({

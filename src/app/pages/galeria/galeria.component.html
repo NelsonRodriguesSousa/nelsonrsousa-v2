@@ -1,0 +1,17 @@
+
+<div class="masonry-grid">
+
+  <div
+    class="masonry-item"
+    *ngFor="let imagem of imagens">
+
+    <img
+      [src]="imagem"
+      loading="lazy"
+      (load)="atualizarLayout()"
+      (error)="atualizarLayout()"
+    />
+
+  </div>
+
+</div>
